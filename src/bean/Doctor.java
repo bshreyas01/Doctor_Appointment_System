@@ -9,16 +9,19 @@ public class Doctor {
 	private String dMobile;
 	private String dEmail;
 	private String dPassword;
-//	public Doctor(int did, String dName, String dGender, int dAge, String dMobile, String dEmail, String dPassword) {
-//		super();
-//		this.did = did;
-//		this.dName = dName;
-//		this.dGender = dGender;
-//		this.dAge = dAge;
-//		this.dMobile = dMobile;
-//		this.dEmail = dEmail;
-//		this.dPassword = dPassword;
-//	}
+	public Doctor() {
+		// TODO Auto-generated constructor stub
+	}
+	public Doctor(int did, String dName, String dGender, int dAge, String dMobile, String dEmail, String dPassword) {
+		super();
+		this.did = did;
+		this.dName = dName;
+		this.dGender = dGender;
+		this.dAge = dAge;
+		this.dMobile = dMobile;
+		this.dEmail = dEmail;
+		this.dPassword = dPassword;
+	}
 	public int getDid() {
 		return did;
 	}

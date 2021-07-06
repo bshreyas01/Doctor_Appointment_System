@@ -4,14 +4,15 @@ public class Appointment {
 	
 	private int aID,DoctorId,PatientID;
 	private String aDate,aTime;
-//	public Appointment(int aID, int doctorId, int patientID, String aDate, String aTime) {
-//		super();
-//		this.aID = aID;
-//		DoctorId = doctorId;
-//		PatientID = patientID;
-//		this.aDate = aDate;
-//		this.aTime = aTime;
-//	}
+	public Appointment() {}
+	public Appointment(int aID, int doctorId, int patientID, String aDate, String aTime) {
+		super();
+		this.aID = aID;
+		DoctorId = doctorId;
+		PatientID = patientID;
+		this.aDate = aDate;
+		this.aTime = aTime;
+	}
 	public int getaID() {
 		return aID;
 	}

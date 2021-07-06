@@ -10,15 +10,16 @@ public class Patient {
 	private String pMobile;
 	private String pEmail;
 	private String pPassword;
-//	public Patient(String pName, String pGender, int pAge, String pMobile, String pEmail, String pPassword) {
-//		super();
-//		this.pName = pName;
-//		this.pGender = pGender;
-//		this.pAge = pAge;
-//		this.pMobile = pMobile;
-//		this.pEmail = pEmail;
-//		this.pPassword = pPassword;
-//	}
+	public Patient() {}
+	public Patient(String pName, String pGender, int pAge, String pMobile, String pEmail, String pPassword) {
+		super();
+		this.pName = pName;
+		this.pGender = pGender;
+		this.pAge = pAge;
+		this.pMobile = pMobile;
+		this.pEmail = pEmail;
+		this.pPassword = pPassword;
+	}
 	public int getPid() {
 		return pid;
 	}

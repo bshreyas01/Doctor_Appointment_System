@@ -7,14 +7,15 @@ public class Admin {
 	private String contactNumber;
 	private String email;
 	private String password;
-//	public Admin(int adminId, String adminName, String contactNumber, String email, String password) {
-//		super();
-//		this.adminId = adminId;
-//		this.adminName = adminName;
-//		this.contactNumber = contactNumber;
-//		this.email = email;	
-//		this.password = password;
-//	}
+	public Admin() {}
+	public Admin(int adminId, String adminName, String contactNumber, String email, String password) {
+		super();
+		this.adminId = adminId;
+		this.adminName = adminName;
+		this.contactNumber = contactNumber;
+		this.email = email;	
+		this.password = password;
+	}
 	public int getAdminId() {
 		return adminId;
 	}

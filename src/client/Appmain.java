@@ -11,9 +11,18 @@ public class Appmain {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		Work w=new Work();
-		
-		w.work();
+		work();
 		
 	}
+	public static void work() throws Exception {
+		
+		boolean flag=true;
+		
+		while(flag) {
+			Applpresentation.startappmenu();
+			Applpresentation.performmenu();
+			flag=false;
+		}
+	  }
 }
+

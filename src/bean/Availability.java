@@ -5,13 +5,14 @@ public class Availability {
 	String InTime;
 	String OutTime;
 	int DoctorId;
-//	public Availability(String doctorDate, String inTime, String outTime, int doctorId) {
-//		super();
-//		DoctorDate = doctorDate;
-//		InTime = inTime;
-//		OutTime = outTime;
-//		DoctorId = doctorId;
-//	}
+	public Availability() {}
+	public Availability(String doctorDate, String inTime, String outTime, int doctorId) {
+		super();
+		DoctorDate = doctorDate;
+		InTime = inTime;
+		OutTime = outTime;
+		DoctorId = doctorId;
+	}
 	public String getDoctorDate() {
 		return DoctorDate;
 	}
